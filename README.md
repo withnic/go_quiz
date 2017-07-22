@@ -1,2 +1,2 @@
 # quiz
-go quiz.  find twitter.
+go quiz. in twitter. 

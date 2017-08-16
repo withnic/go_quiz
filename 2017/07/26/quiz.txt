@@ -1,0 +1,10 @@
+https://twitter.com/davecheney/status/890156251530706944
+
+Are interface{} and struct{ a int } named or unnamed types?
+
+Neither is a named type
+
+One is named, one isn't
+
+Both are named types
+

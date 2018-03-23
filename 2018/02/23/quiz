@@ -1,0 +1,15 @@
+https://twitter.com/inancgumus/status/967068336289976321
+
+#golang #quiz
+
+Given:
+var x interface{} = 5
+
+Which expression below should you use to get the output: `6`?
+
+(please do not use go playground) 
+
+* x + 1
+* int(x) + 1
+* x.(int) + 1
+* x.(interface{}) + 1

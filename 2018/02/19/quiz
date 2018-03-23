@@ -1,0 +1,10 @@
+https://twitter.com/FiloSottile/status/965359405918277633
+#golang pop quiz: find the bug. 
+This would have flown past me in code review.
+
+_, err := db.Exec("...")
+if err, ok := err.(sqlite3.Error); ok && err.Code != 19 {
+    return false
+} else if err != nil {
+    log.Fatal(err)
+} 

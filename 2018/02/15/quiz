@@ -1,0 +1,10 @@
+https://twitter.com/shurcooL/status/963863767464292352
+#golang pop quiz.
+One of these 4 structs is unlike the rest in Go 1.10.
+Which and why.
+(There is some dimension along which 3 are alike and 1 differs, find that dimension.) 
+
+* struct{ someStruct }
+* struct{ *someStruct }
+* struct{ SomeStruct }
+* struct{ *SomeStruct }

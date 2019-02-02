@@ -19,6 +19,10 @@ insert_final_newline = true
 # A line should not have more than this amount of chars (not supported by all plugins)
 max_line_length = 100
 
+[*.go]
+indent_style = tab
+indent_size = 8
+
 [{Makefile,**.mk}]
 # Use tabs for indentation (Makefiles require tabs)
 indent_style = tab

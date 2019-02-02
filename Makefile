@@ -24,13 +24,14 @@ MAKEFLAGS += --silent
 setup: ## Setup installs go binary
 	$(GOGET) github.com/cespare/reflex
 	$(GOGET) github.com/oxequa/realize
+	$(GOGET) golang.org/x/lint/golint
+	$(GOGET) golang.org/x/tools/cmd/goimports
 	$(GOGET) github.com/pressly/goose/cmd/goose
 
 
 .PHONY: dev
-dev: ## Build
+dev: ## Copy git dir
 	cp -P git/pre-commit .git/hooks/pre-commit
-	git config commit.template git/git_template
 
 .PHONY: deps
 deps: ## Install vendors
